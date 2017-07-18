@@ -1,4 +1,4 @@
-class AdvertisementsController < ApplicationController
+class AdvertisementsController < ActionController::Base
   #before_actions
 
   def index
