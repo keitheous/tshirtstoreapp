@@ -25,6 +25,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'rspec-rails', '~> 3.5'
   gem "awesome_print", require:"ap"
   gem "pry-rails"
   gem 'web-console', '>= 3.3.0'
