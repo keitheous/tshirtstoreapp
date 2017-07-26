@@ -2,7 +2,7 @@ class AdvertsController < ActionController::Base
   #before_actions
 
   def index
-    @advertisements = Advertisement.all
+    @adverts = Advert.all
   end
 
   def new
