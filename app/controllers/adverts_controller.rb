@@ -22,9 +22,9 @@ class AdvertsController < ActionController::Base
 
   private
 
-  def find_advertisement
+  def find_advert
   end
 
-  def advertisement_params
+  def advert_params
   end
 end
