@@ -25,6 +25,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "font-awesome-rails"
   gem 'rspec-rails', '~> 3.5'
   gem "awesome_print", require:"ap"
   gem "pry-rails"
