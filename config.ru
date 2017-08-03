@@ -4,6 +4,6 @@ require_relative 'config/environment'
 
 run Rails.application
 
-.rspec
-spec/spec_helper.rb
-spec/rails_helper.rb
+#.rspec
+#spec/spec_helper.rb
+#spec/rails_helper.rb

@@ -1,7 +1,15 @@
 %h3
   Inventory
-  - @advertisements.each do |advertisement|
-    = advertisement.title
-    = advertisement.price
-    = advertisement.size
-    = advertisement.description
+- @adverts.each do |advert|
+  %h4
+    = advert.title
+  %p
+    Description:
+    = advert.description
+  %p
+    Price:
+    = advert.price
+  %p
+    Size
+    = advert.size
+  %i.fa.fa-user-profile
